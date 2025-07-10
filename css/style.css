@@ -6,6 +6,13 @@
   
   font-style: normal;
 }
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
 /* shared color***********/
 
 
@@ -35,15 +42,15 @@ header{
 }
 nav{
     display: flex;
-    max-width: 1140px;
-    margin:0 auto; 
+    /* max-width: 1140px; */
+    margin:0 150px; 
     justify-content: space-between;
     align-items: center;
 }
 .nav-img{
     font-weight: 900;
     font-size: 34px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
     
 }
 .btn a{
@@ -56,7 +63,7 @@ nav{
 /* *****************hero section */
 .hero-section{
     text-align: center;
-   padding: 152px 267.5px 158px 267.5px;
+   padding: 152px 267.5px 120px 267.5px;
     
 }
 .hero-title {
@@ -75,7 +82,7 @@ main{
 .contents{
     display: flex;
     justify-content: space-between;
-    gap: 120px;
+    gap: 220px;
     align-items: center;
    
 
@@ -106,4 +113,37 @@ img{
     font-weight: 400;
     padding: 0 100px 0 0;
     margin-bottom: 23px;
+    color: #252432;
 }
+/* users part */
+.users{
+    max-width: 1140px;
+   background: rgba(78, 71, 255, 0.1);
+   margin: 0 auto;
+   border-radius: 24px;
+  margin-top: 108px;
+
+}
+.users h3{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    padding: 50px 142px 40px 142px;
+}
+.user-container{
+    display: flex;
+    justify-content: space-around;
+}
+.user-item h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+
+}
+.user-item p{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
