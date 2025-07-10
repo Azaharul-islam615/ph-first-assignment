@@ -1,7 +1,14 @@
-body{
-    margin: 0;
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
 }
 /* shared color***********/
+
+
 .primary-color{
     color: #4E47FF;
 }
@@ -14,12 +21,20 @@ body{
 
 
 /* nav section */
+body{
+    margin: 0;
+}
 header{
     background-image: url("../Assets/Hero-bg.png");
+    
+ 
+  
 }
 nav{
     display: flex;
-    margin: 0 150px;
+    width: 1140px;
+    margin:0 auto;
+     
     justify-content: space-between;
     align-items: center;
 }
@@ -34,9 +49,16 @@ nav{
     color: white;
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    
 }
-/* .hero-item{
-
-} */
+/* *****************hero section */
+.hero-section{
+    text-align: center;
+   padding: 152px 267.5px 158px 267.5px;
+    
+}
+.hero-title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
