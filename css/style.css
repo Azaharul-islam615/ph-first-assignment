@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+/* shared color***********/
+.primary-color{
+    color: #4E47FF;
+}
+.btn{
+    padding: 12px 36px;
+    background-color: #4E47FF ;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* nav section */
+header{
+    background-image: url("../Assets/Hero-bg.png");
+}
+nav{
+    display: flex;
+    margin: 0 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img{
+    font-weight: 900;
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/* .hero-item{
+
+} */
