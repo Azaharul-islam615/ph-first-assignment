@@ -14,6 +14,9 @@
   font-style: normal;
 }
 /* shared color***********/
+.container{
+    margin: 0 150px;
+}
 .primary-background{
     background-color: #FFFFFF;
 }
@@ -32,12 +35,23 @@
     border: none;
     border-radius: 10px;
 }
-.title-color{
+.btn:hover{
+ background-color: yellow;
+ scale: 1.1;
+ transition: 0.3s;
+ 
+}
+.btn:hover a{
+color: #000000;
+}
+
+
+.{
     color: #252432;
 }
 
 
-/* nav section */
+/****************************8 nav section *****************************************/
 body{
     margin: 0;
 }
@@ -48,9 +62,7 @@ header{
   
 }
 nav{
-    display: flex;
-    
-    margin:0 150px; 
+    display: flex; 
     justify-content: space-between;
     align-items: center;
 }
@@ -67,7 +79,7 @@ nav{
     font-weight: 700;
     
 }
-/* *****************hero section */
+/* ***************************************hero section***************************/
 .hero-section{
     text-align: center;
    padding: 152px 267.5px 120px 267.5px;
@@ -86,35 +98,34 @@ main{
    
     
 }
-/* action part */
+/**************************************action part *******************************************/
 .contents{
     display: flex;
     justify-content: space-between;
-    gap: 220px;
+    gap: 100px;
     align-items: center;
+     padding: 62px 0; 
    
 
 }
 .action-content{
-   
-    margin: 0 150px;
     padding: 77px 0 0 0;
    
 }
-img{
-    width: 100%;
-}
+
 .imges img{
     border-radius: 48px;
 }
 .content{
-    padding: 62px 0;
+    /* padding: 62px 0; */
    
 }
 .content-title{
     font-size: 42px;
     font-weight: 700;
     margin-bottom: 23px;
+    padding: 0;
+    margin: 0;
 }
 .content-description{
     font-size: 24px;
@@ -123,11 +134,10 @@ img{
     margin-bottom: 23px;
     color: #252432;
 }
-/* users part */
+/******************************************** users part ***************************/
 .users{
     
    background: rgba(78, 71, 255, 0.1);
-   margin: 0 150px;
    border-radius: 24px;
   margin-top: 108px;
   padding: 50px 80px;
@@ -155,7 +165,7 @@ img{
     font-weight: 400;
    
 }
-/* user review */
+/*************************************** user review *********************************************/
 .iconstar{
     display: flex;
 }
@@ -169,7 +179,6 @@ img{
     border-radius: 50%;
 }
 .user-review{
-    margin: 0 155px;
      margin-top: 137px ;
 }
 .description{
@@ -231,9 +240,8 @@ img{
 .date{
     color: #B3B3B3;
 }
-/* ready to focus */
+/***************************************************ready to focus ***********************************/
 .focus{
-    margin: 0 150px;
     text-align: center;
     padding: 71px 150px;
     border-radius: 14px;
@@ -242,6 +250,7 @@ img{
 .focus img{
     border-radius: 48px;
     margin-top: 20px;
+    width: 100%;
 }
 .title{
     font-size: 50px;
@@ -253,10 +262,9 @@ img{
     font-weight: 700;
     margin-bottom: 20px;
 }
-/* get in touch */
+/*********************************************** get in touch **********************************/
 .get-in-touch{
     display: flex;
-    margin: 0 150px;
     align-items: center;
     justify-content: space-between;
     padding: 71px 0;
@@ -264,19 +272,21 @@ img{
     
 }
 .get-in{
-    width: 50%;
+    width: 60%;
+    
     
 }
 .get-in h1{
     font-size: 97px;
     font-weight: 700;
    
+   
 }
 .get-in-touch input,textarea{
     display: block;
 }
 .form{
-    width: 50%;
+    width: 40%;
 }
 .form input,textarea{
     width: 100%;
@@ -299,7 +309,7 @@ img{
 .submittt-btn{
     width: 100%;
 }
-/* footer section */
+/*******************************************footer section **************************************/
 
 footer{
     
@@ -313,7 +323,6 @@ footer{
 }
 .footer-section{
     text-align: center;
-    margin: 0 150px;
     
 }
 .footer-section p{
