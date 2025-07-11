@@ -14,8 +14,15 @@
   font-style: normal;
 }
 /* shared color***********/
-
-
+.primary-background{
+    background-color: #FFFFFF;
+}
+.primary-text{
+    color: #000000;
+}
+.text-primary-color{
+    color: #8987A1;
+}
 .primary-color{
     color: #4E47FF;
 }
@@ -42,7 +49,7 @@ header{
 }
 nav{
     display: flex;
-    /* max-width: 1140px; */
+    
     margin:0 150px; 
     justify-content: space-between;
     align-items: center;
@@ -76,6 +83,7 @@ nav{
 main{
    
     background-color: #F5F8FF;
+   
     
 }
 /* action part */
@@ -228,7 +236,6 @@ img{
     margin: 0 150px;
     text-align: center;
     padding: 71px 150px;
-    background-color: #FFFFFF;
     border-radius: 14px;
     margin-top: 137px;
 }
@@ -237,7 +244,6 @@ img{
     margin-top: 20px;
 }
 .title{
-    color: #000000;
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -245,9 +251,83 @@ img{
 .focus-description{
     font-size: 20px;
     font-weight: 700;
-    color: #252432;
     margin-bottom: 20px;
 }
+/* get in touch */
+.get-in-touch{
+    display: flex;
+    margin: 0 150px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 71px 0;
+    gap: 115px;
+    
+}
+.get-in{
+    width: 50%;
+    
+}
+.get-in h1{
+    font-size: 97px;
+    font-weight: 700;
+   
+}
+.get-in-touch input,textarea{
+    display: block;
+}
+.form{
+    width: 50%;
+}
+.form input,textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 32px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+     margin-top: 10px;
+     margin-bottom: 19px;
+     border-radius: 10px;
+     outline: none;
+}
+.form label{
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
+.submittt-btn{
+    width: 100%;
+}
+/* footer section */
+
+footer{
+    
+    padding: 103px 210px 104px 210px;
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.footer-section{
+    text-align: center;
+    margin: 0 150px;
+    
+}
+.footer-section p{
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.add-link a{
+    text-decoration: none;
+   
+    margin-right: 48px;
+    margin-top: 20px;
+}
+
 
 
 
