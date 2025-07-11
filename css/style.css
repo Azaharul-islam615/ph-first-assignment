@@ -88,8 +88,8 @@ main{
 
 }
 .action-content{
-    max-width: 1140px;
-    margin: 0 auto;
+   
+    margin: 0 150px;
     padding: 77px 0 0 0;
    
 }
@@ -111,28 +111,29 @@ img{
 .content-description{
     font-size: 24px;
     font-weight: 400;
-    padding: 0 100px 0 0;
+    padding: 0 20px 0 0;
     margin-bottom: 23px;
     color: #252432;
 }
 /* users part */
 .users{
-    max-width: 1140px;
+    
    background: rgba(78, 71, 255, 0.1);
-   margin: 0 auto;
+   margin: 0 150px;
    border-radius: 24px;
   margin-top: 108px;
+  padding: 50px 80px;
 
 }
 .users h3{
     text-align: center;
     font-size: 38px;
     font-weight: 700;
-    padding: 50px 142px 40px 142px;
+   margin-bottom: 40px;
 }
 .user-container{
     display: flex;
-    justify-content: space-around;
+   justify-content: space-around;
 }
 .user-item h1{
     font-size: 80px;
@@ -144,6 +145,88 @@ img{
     color: #000000;
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 50px;
+   
 }
+/* user review */
+.iconstar{
+    display: flex;
+}
+.reviewer{
+    display: flex;
+   
+}
+.reviewer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user-review{
+    margin: 0 155px;
+     margin-top: 137px ;
+}
+.description{
+    display: block;
+}
+
+.reveiwer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.reveiwer {
+    display:flex;
+    align-items: center;
+}
+
+
+.reveiwer-containers{
+    display: flex;
+    gap: 20px;
+    
+}
+.reveiwers{
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+}
+.user-review h3{
+   text-align: center;
+   font-size: 42px;
+   font-weight: 700;
+}
+.description h4{
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+   
+}
+.description p{
+    color: #1E1E1E;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+.iconstar{
+    margin-bottom: 24px;
+}
+.reveiwer p{
+    margin:0 ;
+    margin-left:12px;
+}
+.name{
+    color: #757575;
+    font-size:16px ;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.date{
+    color: #B3B3B3;
+}
+
+
+
+
+
+
 
