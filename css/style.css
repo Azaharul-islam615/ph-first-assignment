@@ -223,6 +223,31 @@ img{
 .date{
     color: #B3B3B3;
 }
+/* ready to focus */
+.focus{
+    margin: 0 150px;
+    text-align: center;
+    padding: 71px 150px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin-top: 137px;
+}
+.focus img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.title{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.focus-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 20px;
+}
 
 
 
